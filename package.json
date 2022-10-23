@@ -1,0 +1,22 @@
+{
+  "name": "readme_generator",
+  "version": "1.0.0",
+  "description": "asks a series of questions and it generates a README",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nikkikhou/README_generator.git"
+  },
+  "author": "Nikki Khouvongsavanh",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nikkikhou/README_generator/issues"
+  },
+  "homepage": "https://github.com/nikkikhou/README_generator#readme",
+  "dependencies": {
+    "inquirer": "^8.0.0"
+  }
+}
