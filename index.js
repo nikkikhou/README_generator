@@ -3,7 +3,7 @@ const fs = require("fs");
 const path = require("path");
 const inquirer = require("inquirer");
 const generateMarkdown = require("./utils/generateMarkdown");
-console.log("welcome to the readme generator");
+console.log("Welcome to the readme generator");
 
 
 const avaliableLicenses = [
@@ -98,7 +98,6 @@ const questions = [
 
 // TODO: Create a function to write README file
 function writeToFile(fileName, data) {
-  console.log("before");
   return fs.writeFileSync(path.join(process.cwd(), fileName), data);
 }
 
@@ -111,9 +110,9 @@ function init() {
     })
     .catch((error) => {
       if (error.isTtyError) {
-        // Prompt couldn't be rendered in the current environment
+        console.log("Could not be rendered")
       } else {
-        // Something else went wrong
+       console.log("Please enter more")
       }
     });
 }

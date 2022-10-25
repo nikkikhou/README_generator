@@ -1,32 +1,32 @@
-# ndsklf
-  [![Apache license](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
+# readme generator
+  [![Unlicense license](https://img.shields.io/badge/license-Unlicense-blue.svg)](http://unlicense.org/)
   ## Table of Contents
-  *[description](#description)
+  *[Description](#description)
 
-  *[installation](#installation)
+  *[Installation](#installation)
 
-  *[usage](#usage)
+  *[Usage](#usage)
 
-  *[contributing](#contributing)
+  *[Contributing](#contributing)
 
-  *[tests](#tests)
+  *[Tests](#tests)
 
-  *[license](#license)
+  *[License](#license)
 
   
   ## Description
-  dklfns
+  this creates a readme
   ## Installation
-  dlfkms
+  how to install your project
   ## Usage
-  mkflsd
+  how to use your project
   ## Contributing
-  mklfsd
+  requirements
   ## Tests
-  mklsdf
+  test
   ## License
-  Distributed under the Apache License. See [LICENSE](https://opensource.org/licenses/Apache-2.0) for more information
+  Distributed under the Unlicense License. See [LICENSE](http://unlicense.org/) for more information
   ## Questions
   If you have any questions you can contact me at:
-  EMAIL: nkljsd
-  Github: github.com/nikkik
+  EMAIL: nikkikhou@gmail.com
+  Github: github.com/nikkikhou

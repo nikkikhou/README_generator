@@ -11,17 +11,17 @@ function generateMarkdown(data) {
   return `# ${data.title}
   ${renderLicenseSection(data.license)}
   ## Table of Contents
-  *[description](#description)
+  *[Description](#description)
 
-  *[installation](#installation)
+  *[Installation](#installation)
 
-  *[usage](#usage)
+  *[Usage](#usage)
 
-  *[contributing](#contributing)
+  *[Contributing](#contributing)
 
-  *[tests](#tests)
+  *[Tests](#tests)
 
-  *[license](#license)
+  *[License](#license)
 
   
   ## Description
@@ -38,7 +38,9 @@ function generateMarkdown(data) {
   Distributed under the ${data.license.name} License. See [LICENSE](${data.license.url}) for more information
   ## Questions
   If you have any questions you can contact me at:
+
   EMAIL: ${data.email}
+  
   Github: github.com/${data.username}`;
   
 }
